@@ -1,5 +1,6 @@
 ﻿using Newtonsoft.Json;
 using System.Collections.Generic;
+using System.Net;
 
 namespace ServiceMocks.Contracts.Dtos
 {
@@ -7,7 +8,22 @@ namespace ServiceMocks.Contracts.Dtos
     {
         public ImposterDto()
         {
+            Name = string.Empty;
+
             Stubs = new List<StubDto>();
+
+            DefaultResponse = new ResponseDto
+            {
+                IsDto = new IsDto
+                {
+                    StatusCode = (int)HttpStatusCode.OK,
+                    Headers = new HeadersDto
+                    {
+                        Connection = "close"
+                    },
+                    Body = string.Empty
+                }
+            };
         }
 
         [JsonProperty("port")]
@@ -18,5 +34,8 @@ namespace ServiceMocks.Contracts.Dtos
 
         [JsonProperty("stubs")]
         public ICollection<StubDto> Stubs { get; set; }
+
+        [JsonProperty("defaultResponse")]
+        public ResponseDto DefaultResponse { get; set; }
     }
 }
