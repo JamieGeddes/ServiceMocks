@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26127.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceMocks", "ServiceMocks\ServiceMocks.csproj", "{D9BAA5D3-F056-4C50-B1DD-0FEC69EF235C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceMocks.Contracts", "ServiceMocks.Contracts\ServiceMocks.Contracts.csproj", "{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{D9BAA5D3-F056-4C50-B1DD-0FEC69EF235C}.Release|x64.Build.0 = Release|x64
 		{D9BAA5D3-F056-4C50-B1DD-0FEC69EF235C}.Release|x86.ActiveCfg = Release|x86
 		{D9BAA5D3-F056-4C50-B1DD-0FEC69EF235C}.Release|x86.Build.0 = Release|x86
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Debug|x64.ActiveCfg = Debug|x64
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Debug|x64.Build.0 = Debug|x64
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Debug|x86.ActiveCfg = Debug|x86
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Debug|x86.Build.0 = Debug|x86
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Release|x64.ActiveCfg = Release|x64
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Release|x64.Build.0 = Release|x64
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Release|x86.ActiveCfg = Release|x86
+		{DBE14940-A6E8-4BF5-9971-D66FBDDB73AF}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
